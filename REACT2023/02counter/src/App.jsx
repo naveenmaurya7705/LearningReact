@@ -22,7 +22,10 @@ function App() {
   const addValue =() =>{
     console.log('value added', Math.random(),counter)
     
-    setCouter(counter + 1)
+    setCouter(prevcounter => prevcounter + 1)
+    setCouter(prevcounter =>prevcounter + 1)
+    setCouter(prevcounter =>prevcounter + 1)
+    setCouter(prevcounter =>prevcounter + 1)
    
    }
 
